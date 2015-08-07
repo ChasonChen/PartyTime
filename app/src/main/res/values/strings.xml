@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PartyTime</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_login">会聚</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <!--LoginActivity String-->
+    <string name="et_account_hint">手机号</string>
+    <string name="et_password_hint">密码</string>
+    <string name="bt_login_text">登录</string>
+    <string name="cb_remember_account">记住账号</string>
+    <string name="cb_auto_login">自动登录</string>
+    <string name="tv_logo_word">Party Time</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="title_activity_create_party">CreatePartyActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_party">PartyActivity</string>
+    <string name="title_activity_party_list">PartyListActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_add_act">AddActActivity</string>
+    <string name="title_activity_invite">InviteActivity</string>
+    <string name="title_activity_partners">PartnersActivity</string>
+
+</resources>

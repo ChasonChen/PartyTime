@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shadow="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_background"
+    android:orientation="vertical">
+
+    <app.mosn.zdepthshadowlayout.ZDepthShadowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        shadow:z_depth="z_depth1"
+        shadow:z_depth_paddingBottom="z_depth1"
+        shadow:z_depth_paddingLeft="z_depth2"
+        shadow:z_depth_paddingRight="z_depth2"
+        shadow:z_depth_paddingTop="z_depth2"
+        shadow:z_depth_shape="rect">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp">
+
+            <app.mosn.zdepthshadowlayout.ZDepthShadowLayout
+                android:id="@+id/zdsl_invite_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                shadow:z_depth_padding="z_depth1"
+                shadow:z_depth="z_depth1"
+                shadow:z_depth_shape="oval">
+
+                <com.csu.partytime.view.CircleImageView
+                    android:id="@+id/civ_invite_account_avatar"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@mipmap/default_avatar"
+                    shadow:border_color="@color/app_color_50tp"
+                    shadow:border_width="2dp" />
+            </app.mosn.zdepthshadowlayout.ZDepthShadowLayout>
+
+            <TextView
+                android:id="@+id/tv_invite_account_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/zdsl_invite_account"
+                android:textColor="@color/app_color"
+                android:text="Nick"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_invite_account_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/tv_invite_account_nickname"
+                android:text="Address"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/cb_invite_account_is_invite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+    </app.mosn.zdepthshadowlayout.ZDepthShadowLayout>
+
+</LinearLayout>

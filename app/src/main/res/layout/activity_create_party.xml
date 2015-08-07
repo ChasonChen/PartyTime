@@ -1,0 +1,135 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shadow="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sv_create_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:orientation="vertical">
+
+    <app.mosn.zdepthshadowlayout.ZDepthShadowLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        shadow:z_depth="z_depth1"
+        shadow:z_depth_padding="z_depth2"
+        shadow:z_depth_shape="rect">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_create_party_title"
+                style="@style/create_activity_edit_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="（必填）聚会名称" />
+
+            <EditText
+                android:id="@+id/et_create_party_creator"
+                style="@style/create_activity_edit_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="（必填）你的名字，方便小伙伴认识哦" />
+
+            <EditText
+                android:id="@+id/et_create_party_tel"
+                style="@style/create_activity_edit_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="（必填）你的电话" />
+
+            <LinearLayout
+                android:id="@+id/ll_create_party_added_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="已选活动："
+                    android:textColor="@color/app_color"
+                    android:layout_marginRight="10dp"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_create_party_added_activity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_create_party_select_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="聚会时间："
+                    android:textColor="@color/app_color"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_create_party_selected_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:visibility="gone"
+                    android:layout_marginRight="10dp"
+                    android:textSize="18sp"
+                    android:hint="活动时间" />
+
+                <Button
+                    android:id="@+id/bt_create_party_select_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    style="@style/button_normal"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="选择时间" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_create_party_gathering_place"
+                style="@style/create_activity_edit_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="集合地点" />
+
+
+            <EditText
+                android:id="@+id/et_create_party_notice"
+                style="@style/create_activity_edit_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:hint="聚会通知"
+                android:lines="3"
+                android:text="人均消费50" />
+
+            <Button
+                android:id="@+id/bt_create_party_create_party"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginBottom="15dp"
+                style="@style/button_normal"
+                android:textSize="16sp"
+                android:text="创建聚会" />
+        </LinearLayout>
+    </app.mosn.zdepthshadowlayout.ZDepthShadowLayout>
+</ScrollView>

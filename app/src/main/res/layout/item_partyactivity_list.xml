@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shadow="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_background"
+    android:orientation="vertical">
+
+    <app.mosn.zdepthshadowlayout.ZDepthShadowLayout
+        android:id="@+id/zdsl_party_activity_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        shadow:z_depth="z_depth1"
+        shadow:z_depth_padding="z_depth2"
+        shadow:z_depth_shape="rect">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt_party_activity_item"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <app.mosn.zdepthshadowlayout.ZDepthShadowLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                shadow:z_depth="z_depth1"
+                shadow:z_depth_padding="z_depth2"
+                shadow:z_depth_shape="rect">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                shadow:z_depth="z_depth1"
+                shadow:z_depth_padding="z_depth2"
+                shadow:z_depth_shape="rect">
+
+                <ImageView
+                    android:id="@+id/iv_activity_photo"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@mipmap/ic_default_activity_img" />
+
+            </app.mosn.zdepthshadowlayout.ZDepthShadowLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tv_activity_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="五妹子土菜馆"
+                    android:singleLine="true"
+                    android:textColor="@color/app_color"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_activity_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_activity_title"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="8dp"
+                    android:text="中餐"
+                    android:singleLine="true"
+                    android:textColor="@color/app_text_color_dark"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_activity_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="5dp"
+                    android:singleLine="true"
+                    android:text="升华大道附近"
+                    android:textColor="@color/app_text_color_dark" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </app.mosn.zdepthshadowlayout.ZDepthShadowLayout>
+
+</LinearLayout>

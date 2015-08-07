@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core-slh/3.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="49223278ec2ede1d05d00868c5ce3e077b4016f8">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/classes-ef26005a12f05a37e519f9ddc0ee73f53ff736ed.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/libs/libammsdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/libammsdk-fe3ea313faf3c6eb3a265df68880e7610ece4e39.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/exploded-aar/com.astuetz/pagerslidingtabstrip/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7912610ed96381c25c36d986eba422731b9641b6">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/classes-5deeb890bebf990fa612eef1a85c1fed12ac0974.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/libs/mta-sdk-1.6.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/mta-sdk-1.6.2-905083716fec4875aac75eb606d01548a416831d.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/library-2.4.0-f6e7f198b4df1377d1628c2fee7f0d21536dacae.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/libs/AMap_3DMap_V2.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="49c1dc076a092ae24d5980a6c8d20f08af849ea0">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/AMap_3DMap_V2.4.1-f4924e804e2e04698f0243b7644d2edb08cba7af.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core/3.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="acf66033b1418ccf9e15c8e77750981e4809c4ea">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/classes-9942589a1875cc3f46f47d93e4f5e03426b4d09d.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/classes-aef4f4d048a0188d2dbbca92438ea6d7d2ee7a4d.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/classes-5897509a10a81aa2e1472ea7c72b62d98cbeb693.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-50b98e367754f9a0116b84c2a37e521992cc01bd.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/.gradle/caches/modules-2/files-2.1/org.parceler/parceler-api/0.2.15/b72c029e2ec0ef125b758f2f6bac64f6df8e7a35/parceler-api-0.2.15.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b72c029e2ec0ef125b758f2f6bac64f6df8e7a35">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/parceler-api-0.2.15-f43d790ba1e83fed7eebd808d316dfb64cbac2e1.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-5bd5785ff26f92c472000135b6d71173b95e82aa.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/exploded-aar/PartyTime/MPChartLib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="23556e61d66ce7d542b231dc21676ba1b02c9724">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/classes-74eb788392d14b2972bd578a51fd0ea992562967.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/Applications/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-f375c8bce90134d172e29bccfe9a22cc6f7b6f6e.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-manipulation/3.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5660e4bf78904137e90e62a5d4cc2e987258f02c">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/classes-6459fe72a285fa6bb25b980dfdf7c8e92976b4a2.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/3.0.1/beb7e0a75c753383e7ef68c0e1639999db301c33/androidannotations-api-3.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="beb7e0a75c753383e7ef68c0e1639999db301c33">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/androidannotations-api-3.0.1-d97481ffea1ed78d3cb58efc4aaa1b86dbe9e4c7.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/exploded-aar/PartyTime/ZDepthShadowLayout/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d82e4de427722b0d5807f77b3ea40afd7de9769">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/classes-79eb9e1e27a0241b8db524aea84018179e26b508.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.1/39eff75ddcb987ff65888361a29f489c178429a3/okio-1.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="39eff75ddcb987ff65888361a29f489c178429a3">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/okio-1.0.1-b1201eb0080f16794a67323a69fe550f71b149b7.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/libs/open_sdk_r4889.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3b2f3672b0f55b793684f6bef9df78776b15449e">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/open_sdk_r4889-625f486bd3e6d979b1cc4eed197ca2122366edcf.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/exploded-aar/it.sephiroth.android.library.horizontallistview/hlistview/1.2.2/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="698658e3af1e3f2a5b199e0d09ee6c57793405bd">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/classes-ae037fbeb28628e4edf5317bd08d174c2313f124.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/libs/Android_Location_V1.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b64d1f38ef7ee28b538d61a39d040f249c65587c">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/Android_Location_V1.3.2-3d3b5ebe495f1633b40858959a756c48144524ee.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-92c26cc8c8344529ba177db9c4c40702d09be75c.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/gson-2.3.1-217f8f9339d32d6e2647e66a72e8a6fab2e42fc0.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.4/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="87405405e403de68f4057757b8a2e8de02bd65d0">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/classes-7bcc0b5339b6fbc32203d0a4175c9a1af3b6978e.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.1.0/9b51f7d0c19f179b52beab7cb433f8ba5cf786a4/okhttp-2.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9b51f7d0c19f179b52beab7cb433f8ba5cf786a4">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/okhttp-2.1.0-63f41e6034319302a68b4babb05ce74f9ef0e21c.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/libs/AMap_Services_V2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3057067b0d15469c99c2e8b1a87d66c94862ac7a">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/AMap_Services_V2.4.0-b0e4c4a2c4754cbc4ab534387f9ad80177fe8b74.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/exploded-aar/com.github.clans/fab/1.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="594127e64b096f8e54e148680c3404e3e9c68542">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/classes-8b29aa45be58918f3564424c689e7428a881ecf8.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.0/8873bd0bb5cb9ee37f1b04578eb7e26fcdd44cb0/commons-lang3-3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8873bd0bb5cb9ee37f1b04578eb7e26fcdd44cb0">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/commons-lang3-3.0-673e2c7a21c976861702a5831eb80be3fd403c21.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-34bd43eb7e81ae0da5529cd04cf13a7fafe794a7.jar" />
+    </item>
+    <item
+        jar="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/exploded-aar/com.github.sd6352051.niftydialogeffects/niftydialogeffects/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f6e011916db951e72f3a2be65cfb864bf5408035">
+        <dex dex="/Users/ChenXingchao/AndroidStudioProjects/PartyTime/app/build/intermediates/pre-dexed/debug/classes-9ec4c808252145037640ff657354c4ddde7ebb60.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_actionbar_backward_title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app_color_click">
+
+    <ImageView
+        android:id="@+id/iv_forum_activity_actionbar_backward"
+        android:layout_width="18dp"
+        android:layout_height="48dp"
+        android:src="@mipmap/ic_backward"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/tv_partytime_activity_actionbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginLeft="26dp"
+        android:textColor="@color/white"
+        android:layout_centerVertical="true"
+        android:text="sdfadf"
+        android:shadowDy="1"
+        android:shadowDx="1"
+        android:shadowRadius="1"/>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shadow="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_background"
+    android:orientation="vertical">
+
+    <app.mosn.zdepthshadowlayout.ZDepthShadowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        shadow:z_depth="z_depth1"
+        shadow:z_depth_paddingBottom="z_depth1"
+        shadow:z_depth_paddingLeft="z_depth2"
+        shadow:z_depth_paddingRight="z_depth2"
+        shadow:z_depth_paddingTop="z_depth2"
+        shadow:z_depth_shape="rect">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_pmessage_list_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="你接收到了《又聚会了》聚会的邀请！"
+                android:textColor="@color/app_text_color_dark"
+                android:textSize="18sp"
+                android:singleLine="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="受邀时间："
+                    android:textColor="@color/grey_six"/>
+
+                <TextView
+                    android:id="@+id/tv_pmessage_list_ctime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2015-05-28-16-14-34"
+                    android:textColor="@color/grey_six" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </app.mosn.zdepthshadowlayout.ZDepthShadowLayout>
+
+</LinearLayout>

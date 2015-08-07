@@ -1,0 +1,188 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shadow="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="@color/grey_background">
+
+    <app.mosn.zdepthshadowlayout.ZDepthShadowLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        shadow:z_depth="z_depth1"
+        shadow:z_depth_padding="z_depth2"
+        shadow:z_depth_shape="rect">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:padding="15dp">
+
+            <LinearLayout
+                style="@style/party_activity_party_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/party_activity_lable"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="发起人:" />
+
+                <TextView
+                    android:id="@+id/tv_party_activity_creator"
+                    style="@style/party_activity_text_dark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/party_activity_party_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/party_activity_lable"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="活动时间:" />
+
+                <TextView
+                    android:id="@+id/tv_party_activity_start_time"
+                    style="@style/party_activity_text_dark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/party_activity_party_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/party_activity_lable"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="集合地点:" />
+
+                <TextView
+                    android:id="@+id/tv_party_activity_gathering_place"
+                    style="@style/party_activity_text_dark"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/party_activity_party_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/party_activity_lable"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="活动成员:" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_party_activity_member_count"
+                        style="@style/party_activity_text_dark"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:text="0/0" />
+
+                    <Button
+                        android:id="@+id/bt_party_activity_invite_member"
+                        style="@style/button_normal"
+                        android:layout_width="0dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="2"
+                        android:text="发送邀请" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <it.sephiroth.android.library.widget.HListView
+                android:id="@+id/hlv_party_activity_account_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/party_activity_lable"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="活动列表:" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/bt_party_activity_add_activity"
+                        style="@style/button_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="5dp"
+                        android:text="添加活动" />
+
+                    <Button
+                        android:id="@+id/bt_party_activity_end_vote"
+                        style="@style/button_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="结束投票"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/pc_party_activity_votes"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/bt_party_activity_share"
+                style="@style/button_normal"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
+                android:text="分享聚会"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </app.mosn.zdepthshadowlayout.ZDepthShadowLayout>
+</ScrollView>

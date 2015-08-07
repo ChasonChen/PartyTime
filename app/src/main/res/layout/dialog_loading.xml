@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="80dp"
+    android:background="@drawable/bg_dialog"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <ProgressBar
+        android:id="@+id/pb_dialog"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/pb_dialog"
+        android:text="客官稍等，马上就好..."
+        android:textSize="16sp"
+        android:textColor="@color/app_text_color_dark"
+        android:layout_marginLeft="15dp"/>
+
+</RelativeLayout>

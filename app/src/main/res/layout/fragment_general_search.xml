@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/et_general_search_keyword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="搜索关键词"
+            style="@style/search_options_edittext" />
+
+        <ImageView
+            android:id="@+id/iv_general_search_clear_keyword"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:padding="10dp"
+            android:background="@mipmap/ic_clear"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="4dp"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/bt_general_search_food"
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:layout_weight="1"
+            android:text="美食"
+            android:textSize="14sp"
+            android:layout_marginRight="5dp"
+            style="@style/button_normal" />
+
+        <Button
+            android:id="@+id/bt_general_search_movie"
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:layout_weight="1"
+            android:text="电影"
+            android:textSize="14sp"
+            android:layout_marginRight="5dp"
+            style="@style/button_normal" />
+
+        <Button
+            android:id="@+id/bt_general_search_ktv"
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:layout_weight="1"
+            android:text="KTV"
+            android:textSize="14sp"
+            android:layout_marginRight="5dp"
+            style="@style/button_normal" />
+
+        <Button
+            android:id="@+id/bt_general_search_reset"
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:layout_weight="1"
+            android:text="默认"
+            android:textSize="14sp"
+            style="@style/button_normal" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_general_search_radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/search_options_edittext"
+        android:layout_marginTop="20dp"
+        android:hint="搜索半径/km，默认10km。" />
+
+
+    <Button
+        android:id="@+id/bt_general_search_search"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        style="@style/button_normal"
+        android:layout_marginBottom="35dp"
+        android:text="搜索活动" />
+</LinearLayout>

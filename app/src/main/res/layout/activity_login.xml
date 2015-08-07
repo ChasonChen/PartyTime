@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_splash"
+    tools:context="com.csu.partytime.activity.LoginActivity">
+
+    <ImageView
+        android:id="@+id/iv_login_activity_logo"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@mipmap/ic_logo_splash"/>
+
+    <TextView
+        android:id="@+id/tv_login_activity_title"
+        android:layout_below="@id/iv_login_activity_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="会聚"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"/>
+
+    <ImageButton
+        android:id="@+id/ibt_qq_login"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/bt_qq_login"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015-06-10"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/white_50tp"/>
+
+</RelativeLayout>

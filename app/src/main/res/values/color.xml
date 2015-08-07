@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_color">#029355</color>
+    <color name="app_color_50tp">#80029355</color>
+    <color name="theme_grey_dark">#2A2A2A</color>
+    <color name="theme_grey_light">#3F3F3F</color>
+    <color name="theme_grey_light_press">#4F4F4F</color>
+    <color name="white">#fff</color>
+    <color name="white_50tp">#80ffffff</color>
+    <color name="grey_nine">#999</color>
+    <color name="grey_six">#666</color>
+    <color name="grey_three">#333</color>
+    <color name="grey_background">#ddd</color>
+    <color name="grey_background_50tp">#80dddddd</color>
+    <color name="grey_shadow">#aaa</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000</color>
+    <color name="app_text_color_dark">#111</color>
+    <color name="app_text_color_dark_50tp">#80111111</color>
+    <color name="toast_background">#ee333333</color>
+</resources>

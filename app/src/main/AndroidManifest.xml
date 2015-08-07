@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.csu.partytime" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name=".PartyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="d450e0fe5b8510d143d4afd2710d22ff" />
+        <meta-data
+            android:name="TA_APPKEY"
+            android:value="ERnmdcwTa55KQLSO" />
+        <meta-data
+            android:name="InstallChannel"
+            android:value="play" />
+
+        <activity
+            android:name=".activity.base.BaseActivity_"
+            android:label="@string/title_activity_base" />
+
+        <!-- These two activities are used by QQ -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="1104475777" />
+            </intent-filter>
+
+            <data android:scheme="1104475777" />
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".activity.MainActivity_"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/mainActivityTheme" />
+        <activity
+            android:name=".activity.LoginActivity_"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SearchOptionsActivity_"
+            android:label="@string/title_activity_register" />
+        <activity
+            android:name=".activity.AccountActivity"
+            android:label="@string/title_activity_account" />
+        <activity android:name=".activity.AccountActivity_" />
+        <activity
+            android:name=".activity.CreatePartyActivity_"
+            android:label="@string/title_activity_create_party" />
+        <activity
+            android:name=".activity.SettingActivity_"
+            android:label="@string/title_activity_setting" />
+        <activity
+            android:name=".activity.PartyActivity_"
+            android:label="@string/title_activity_party" />
+        <activity
+            android:name=".activity.PartyListActivity_"
+            android:label="@string/title_activity_party_list" />
+        <activity
+            android:name=".activity.NotificationActivity_"
+            android:label="@string/title_activity_notification" />
+        <activity
+            android:name=".activity.AddActActivity_"
+            android:label="@string/title_activity_add_act" >
+        </activity>
+        <activity
+            android:name=".activity.InviteActivity_"
+            android:label="@string/title_activity_invite" >
+        </activity>
+        <activity
+            android:name=".activity.PartnersActivity_"
+            android:label="@string/title_activity_partners" >
+        </activity>
+    </application>
+
+</manifest>
