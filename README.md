@@ -39,6 +39,8 @@
 - - -
 <font size=3>
 [GisManLi](https://github.com/gismanli) | 
-[LiWenyang](https://github.com/liwenyang1992)
+[LiWenyang](https://github.com/liwenyang1992) | 
+[Effyroth](https://github.com/effyroth) | 
+[ZhuLijun](https://github.com/zhulijun)
 </font>
 <br/><br/><br/>
