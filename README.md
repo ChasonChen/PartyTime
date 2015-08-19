@@ -1,3 +1,4 @@
+<br/><br/><br/>
 #Party Time - 会聚
 - - -
 <font size=3>该应用设计的初衷是为了解决大学生聚会选址问题。主要功能包括基于位置的活动检索、基于多个位置离散用户选择最佳聚会位置、发送活动邀请、聚会投票等功能。</font>
@@ -5,11 +6,11 @@
 
 #UI
 - - -
-+ ##应用部分界面
-<br/>![party-time-ui](http://a3.qpic.cn/psb?/V14JTbGQ23zo31/M5.hRQ5CYfwEGWYFBtBeBTNtJymLvl9i0qUxfxM1J.I!/b/dIoBAAAAAAAA&ek=1&kp=1&pt=0&bo=gAIeCgAAAAAFB7I!&sce=0-12-12&rf=viewer_4)
++##应用部分界面
+![party-time-ui](http://a3.qpic.cn/psb?/V14JTbGQ23zo31/M5.hRQ5CYfwEGWYFBtBeBTNtJymLvl9i0qUxfxM1J.I!/b/dIoBAAAAAAAA&ek=1&kp=1&pt=0&bo=gAIeCgAAAAAFB7I!&sce=0-12-12&rf=viewer_4)
 <br/>
-+ ##配色方案
-<br/>![](http://a1.qpic.cn/psb?/V14JTbGQ23zo31/64LnlcYjBJNHHKFo30t2w4FKfFRUaz1aXqds16uyo8I!/b/dG8AAAAAAAAA&bo=YgOtAAAAAAADB.4!&rf=viewer_4)
++##配色方案
+![](http://a1.qpic.cn/psb?/V14JTbGQ23zo31/64LnlcYjBJNHHKFo30t2w4FKfFRUaz1aXqds16uyo8I!/b/dG8AAAAAAAAA&bo=YgOtAAAAAAADB.4!&rf=viewer_4)
 <br/><br/>
 
 #第三方库
