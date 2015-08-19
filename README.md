@@ -1,6 +1,6 @@
 <img src="http://a3.qpic.cn/psb?/V14JTbGQ23zo31/qZUrYn4ftf02jzOQv5UX.65St5PUKgrwR0nVwMsbubQ!/b/dG4AAAAAAAAA&bo=ywDLAAAAAAADByI!&rf=viewer_4" width = "100" height = "100"  align=center />
 <br/>
-##Party Time - 会聚
+##Party Time
 - - -
 <font size=3>This application is designed to solve the problem of college students' party location. Main functions including based on the activities of the retrieval, based on the multiple location discrete users choose the best party position, send event invites, voting, and other functions.</font>
 <br/>
