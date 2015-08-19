@@ -2,20 +2,20 @@
 <br/>
 ##Party Time - 会聚
 - - -
-<font size=3>该应用设计的初衷是为了解决大学生聚会选址问题。主要功能包括基于位置的活动检索、基于多个位置离散用户选择最佳聚会位置、发送活动邀请、聚会投票等功能。</font>
+<font size=3>This application is designed to solve the problem of college students' party location. Main functions including based on the activities of the retrieval, based on the multiple location discrete users choose the best party position, send event invites, voting, and other functions.</font>
 <br/>
 
-##UI
+##Application UI
 - - -
 ![party-time-ui](http://a3.qpic.cn/psb?/V14JTbGQ23zo31/M5.hRQ5CYfwEGWYFBtBeBTNtJymLvl9i0qUxfxM1J.I!/b/dIoBAAAAAAAA&ek=1&kp=1&pt=0&bo=gAIeCgAAAAAFB7I!&sce=0-12-12&rf=viewer_4)
 <br/>
 
-##后台源码
+##Backend
 - - -
 <font size=3>[Party Time Backend](https://github.com/ChasonChen/PartyTimeBackend)</font>
 <br/>
 
-##第三方库
+##Dependency
 - - -
 <font size=3>
 [Android Annotation](https://github.com/excilys/androidannotations) | 
@@ -30,12 +30,12 @@
 </font>
 <br/>
 
-##开发工具
+##Tools
 - - -
-<font size=3>客户端：Android Studio；编译SDK版本：22 | 服务器：MyEclipse | 数据库:Mongo DB</font>
+<font size=3>IDE:Android Studio MyEclipse | Compile SDK Version：22 | DataBase : Mongo DB</font>
 <br/>
 
-##致谢
+##Thanks
 - - -
 <font size=3>
 [GisManLi](https://github.com/gismanli) | 
